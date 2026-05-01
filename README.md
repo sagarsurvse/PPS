@@ -73,6 +73,49 @@ True = 1
 False = 0
 
 
+Increment and Decrement Operators (Unit 2)
+
+#include <stdio.h>
+
+int main() {
+
+    int a = 5;
+
+    printf("Initial value = %d\n", a);
+
+    printf("Post Increment = %d\n", a++);   // use first then increase
+    printf("After Post Increment = %d\n", a);
+
+    printf("Pre Increment = %d\n", ++a);    // increase first then use
+
+    printf("Post Decrement = %d\n", a--);   // use first then decrease
+    printf("After Post Decrement = %d\n", a);
+
+    printf("Pre Decrement = %d\n", --a);    // decrease first then use
+
+    return 0;
+}
+
+Bitwise Operators (Unit 2)
+
+#include <stdio.h>
+
+int main() {
+
+    int a = 5;   // 101
+    int b = 3;   // 011
+
+    printf("a & b = %d\n", a & b);   // AND
+    printf("a | b = %d\n", a | b);   // OR
+    printf("a ^ b = %d\n", a ^ b);   // XOR
+    printf("~a = %d\n", ~a);         // NOT
+    printf("a << 1 = %d\n", a << 1); // Left Shift
+    printf("a >> 1 = %d\n", a >> 1); // Right Shift
+
+    return 0;
+}
+
+
 ---------------------------------------
 EXAM MCQ (Important)
 
