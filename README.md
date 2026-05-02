@@ -143,6 +143,114 @@ int main() {
     return 0;
 }
 
+
+PPS – Unit 2 Programs  
+(Expressions, Conditional, Precedence, Type Conversion)
+
+---------------------------------------
+
+1) Expression Program
+
+#include <stdio.h>
+
+int main() {
+
+    int a = 10, b = 5, c = 2;
+
+    int result = a + b * c;
+
+    printf("Expression Result = %d\n", result);
+
+    return 0;
+}
+
+Output:
+Expression Result = 20
+
+
+---------------------------------------
+
+2) Precedence Program
+
+#include <stdio.h>
+
+int main() {
+
+    int a = 10, b = 5, c = 2;
+
+    int r1 = a + b * c;
+    int r2 = (a + b) * c;
+
+    printf("Without Bracket = %d\n", r1);
+    printf("With Bracket = %d\n", r2);
+
+    return 0;
+}
+
+Output:
+Without Bracket = 20
+With Bracket = 30
+
+
+---------------------------------------
+
+3) Conditional Expression Program
+
+#include <stdio.h>
+
+int main() {
+
+    int a = 10, b = 5;
+
+    int max = (a > b) ? a : b;
+
+    printf("Max Value = %d\n", max);
+
+    return 0;
+}
+
+Output:
+Max Value = 10
+
+
+---------------------------------------
+
+4) Type Conversion Program
+
+#include <stdio.h>
+
+int main() {
+
+    int a = 10, b = 4;
+    float x = 5.5;
+
+    float r1 = a + x;          // implicit
+    float r2 = (float)a / b;   // explicit
+
+    printf("Implicit = %.2f\n", r1);
+    printf("Explicit = %.2f\n", r2);
+
+    return 0;
+}
+
+Output:
+Implicit = 15.50
+Explicit = 2.50
+
+
+---------------------------------------
+
+Notes (Simple):
+
+Expression = calculation  
+Precedence = order of operation  
+Conditional (?:) = shortcut of if-else  
+Type conversion = data type change  
+
+---------------------------------------
+
+🔥 Ready for Practical + Viva + Exam
+
 ---------------------------------------
 EXAM MCQ (Important)
 
